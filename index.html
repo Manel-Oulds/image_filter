@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image filter</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image-filter"> <h1> Image filtered</h1> </div>
+       
+
+        <div class="buttons"> 
+
+            <button class="btn All">All</a>
+            <button class="btn Tshirt" >Tshirt</a>
+            <button class="btn Sneakers" data-filter="Sneakers" onclick='show("Sneakers")'>Sneakers</a>
+            <button class="btn Skirt" data-filter="Skirt" onclick='show("Skirt")' >Skirt</a>
+        </div>
+
+        <div class="store-items">
+            
+                <div class="item Tshirt"> 
+                    <a target="_blank" href="img/black T-shirt.jpeg">
+                        <img src="img/black T-shirt.jpeg" class="store-img" alt="">
+                    </a>
+                </div>
+                <div class="item Tshirt"> 
+                    <img src="img/disney T-shirt.webp" class="store-img" alt="">
+                </div>
+                <div class="item Tshirt"> 
+                    <img src="img/graphic T-shirt .avif" class="store-img" alt="">
+                </div>
+                <div class="item Skirt"> 
+                    <img src="img/pleat skirt.webp" class="store-img" alt="">
+                </div>
+                <div class="item Skirt"> 
+                    <img src="img/vintage skirt.jpeg" class="store-img" alt="">
+                </div>
+                <div class="item Sneakers"> 
+                    <img src="img/canva sneakers.jpeg" class="store-img" alt="">
+                </div>
+                <div class="item Sneakers"> 
+                    <img src="img/pink sneakers.jpeg" class="store-img" alt="">
+                </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
